@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   webpack: (config) => {
-    return config; // tetap pakai webpack biasa
+    return config;
   },
   experimental: {
-    turbo: false // matiin Turbopack biar build lancar di Vercel
-  }
-}
+    turbo: false,
+  },
+};
 
 module.exports = nextConfig;
